@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            color: #fff;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+
+        /* Animated Background */
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 50% 50%, #dac794, #dac794, #dac794);
+            background-size: 200% 200%;
+            animation: backgroundAnimation 10s infinite alternate;
+            z-index: -1;
+        }
+
+        @keyframes backgroundAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            100% {
+                background-position: 100% 50%;
+            }
+        }
+
+        header {
+            text-align: center;
+            padding: 4rem 1rem;
+            background: rgb(84, 53, 3);
+            border-radius: 50px;
+            margin: 2rem auto;
+            max-width: 800px;
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            margin: 0;
+            background: linear-gradient(90deg, #b88f43, #d0944e);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        header p {
+            font-size: 1.5rem;
+            margin-top: 1rem;
+            color: #fff;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: rgba(147, 68, 7, 0.6);
+            border-radius: 25px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        section h2 {
+            font-size: 1.8rem;
+            color: #df9d32;
+            border-bottom: 2px solid #b8841c;
+            padding-bottom: 0.5rem;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 1rem 0;
+        }
+
+        ul li {
+            font-size: 1.2rem;
+            margin: 0.5rem 0;
+        }
+
+        blockquote {
+            margin: 2rem 0;
+            font-size: 1.5rem;
+            font-style: italic;
+            text-align: center;
+            color: #070500;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            font-size: 1rem;
+            background: rgba(0, 0, 0, 0.7);
+        }
+
+        .portfolio-topic {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            padding: 1rem;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .portfolio-topic dt {
+            font-weight: bold;
+            color: #ac770e;
+        }
+
+        .portfolio-topic dd {
+            margin: 0;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="background"></div>
+
+    <header>
+        <h1>Naveen Rajdev</h1>
+        <p>Welcome to my portfolio!</p>
+    </header>
+
+    <section>
+        
+        <h2>🛠 Projects</h2>
+        <ul>
+            <li><strong>Project </strong>: <strong>Calicut</strong> is envisioned as a smart city that seamlessly blends advanced technology with nature. To achieve this, it's essential to develop comprehensive solutions for managing public transportation systems that are accessible to everyone and ensure proper tax collection. These solutions should focus on promoting sustainable and inclusive mobility, offering equal opportunities for all residents while creating a smarter, more connected, and eco-friendly urban environment.</li>
+        </ul>
+
+        <h2>🚀 Skills</h2>
+        <ul>
+            <li>Programming Languages - C, C++, Java</li>
+            <li>Data Structures and Algorithms</li>
+            <li>Artifitial Inteligence</li>
+            <li>Mathematical Reasoning and Problem Solving</li>
+        </ul>
+
+        <h2>Portfolio Topic</h2>
+        <div class="portfolio-topic">
+            <dl>
+                <dt>Course Name</dt>
+                <dd>Algorithmic Problem Solving</dd>
+
+                <dt>Course Code</dt>
+                <dd>24ECSC205</dd>
+
+                <dt>Name</dt>
+                <dd>Naveen Rajdev</dd>
+
+                <dt>Roll Number</dt>
+                <dd>129</dd>
+
+                <dt>Division</dt>
+                <dd>F</dd>
+
+                <dt>SRN</dt>
+                <dd>01FE23BCI061</dd>
+            </dl>
+
+            <dl>
+                <dt>University</dt>
+                <dd>KLE Technological University, Hubballi</dd>
+
+                <dt>Portfolio Topic/Domain</dt>
+                <dd>Course Project</dd>
+            </dl>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 Naveen Rajdev. All Rights Reserved.
+    </footer>
+</body>
+</html>

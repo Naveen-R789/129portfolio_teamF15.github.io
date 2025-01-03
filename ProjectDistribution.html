@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Overview - Kaveri Vana (Smart City)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background: linear-gradient(135deg, #ad863f, #d4a406);
+            color: #ffffff;
+        }
+        header {
+            text-align: center;
+            padding: 2rem;
+            background-color: rgba(112, 57, 13, 0.923);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        header h1 span {
+            display: block;
+            font-size: 2.5rem;
+            color: #facc15;
+        }
+        section {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+        section h2, h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #7e4f1a;
+            display: inline-block;
+        }
+        section p {
+            margin: 1rem 0;
+            line-height: 1.6;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+            background-color: #3f350e;
+            color: #ffffff;
+            text-align: left;
+        }
+        table th, table td {
+            padding: 1rem;
+            border: 1px solid #ffffff;
+        }
+        .container {
+            width: 80%;
+            margin: 50px auto;
+        }
+        canvas {
+            background: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        @media screen and (max-width: 768px) {
+            section {
+                padding: 1rem;
+            }
+            table, table th, table td {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Course Project Introduction</h1>
+    </header>
+    <section>
+        <h2>The problem space which we chose is 'Public Transport'. As we can see from the city design, it is a very messy, conjusted and a highly populated city. There will be a lot traffic jams and traffic related problems in the city because of that. Hence we really need good public transport facilities in the city.</h2>   
+    <section>
+        <h2>After arriving on the problem space, we analyzed the city design :</h2>
+        <table>
+        <caption>Identification of the Business Cases</caption>
+        <thead>
+            <tr>
+                <th>Sr. No.</th>
+                <th>Aspect</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Tracking and managing the movements of public transports</td>
+                <td>Ensuring efficient routing, scheduling, and monitoring of public transportation vehicles.</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Collecting fares and taxes for the management and funding of those transports</td>
+                <td>Implementing systems to collect fares from passengers and taxes for operational costs.</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Payment of those taxes</td>
+                <td>Managing the processes through which taxes are paid for the maintenance and development of public transport.</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Availability of these transporting facilities to all the people</td>
+                <td>Ensuring equitable access to transportation services for all members of the community.</td>
+            </tr>
+        </tbody>
+    </table>
+    <section>
+        <h2>These four were the most important points which needed to be worked on. Keeping these in mind we identified the business cases. And this is how the business cases were identified.</h2>
+    <header>
+    <h1>Our Team</h1>
+    </header>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Sr. No</th>
+                <th>Name</th>
+                <th>USN</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Shrivatsa M R</td>
+                <td>01FE23BCI038</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Naveen Rajdev</td>
+                <td>01FE23BCI061</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>PraveenABHISHEK N</td>
+                <td>01FE23BCI112</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>APEKSHA RAIKAR</td>
+                <td>01FE23BCI035</td>
+            </tr>
+        </tbody>
+    </table>
+    <header>
+        <h1>Project Overview</h1>
+        <h1><span>Calicut</span></h1>
+    </header>
+    <section>
+        <h2>Welcome to Smart City Calicut</h2>
+    <section>
+        <h2>Problem Statement - There is a need for comprehensive solutions to transform public transport systems, reduce rush-hour congestion, and improve accessibility in underserved areas. These solutions should prioritize sustainable and inclusive mobility to ensure equal opportunities for all residents while fostering smarter, more connected, and eco-friendly cities.</h2>
+        
+        <!-- Updated Table -->
+        <table>
+            <tr>
+                <th>Sl.No</th>
+                <th>Business Case Identified</th>
+                <th>Description</th>
+                <th>Owner</th>
+                <th>Probable Tools</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Public Transport Optimization.</td>
+                <td>Efficient route planning in large transport networks.
+                </td>
+                <td>*****</td>
+                <td>DFS (Depth-First Search)</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Public Transport Optimization.</td>
+                <td> Optimal traversal for finding shortest paths in unweighted graphs.</td>
+                <td>******</td>
+                <td>BFS (Breadth-First Search)</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Rush-Hour Scheduling.</td>
+                <td>Scheduling and priority management for transport resources during peak hours.</td>
+                <td>******</td>
+                <td>Heap Sort</td>
+            </tr>
+             <tr>
+                <td>4</td>
+                <td>Last-Mile Connectivity</td>
+                <td>Optimal pathfinding in weighted graphs to connect underserved areas efficiently.
+                </td>
+                <td>Naveen Rajdev</td>
+                <td>Dijkstra's Algorithm</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Inclusive Mobility</td>
+                <td>Building minimum spanning trees for inclusive and cost-effective infrastructure expansion.</td>
+                <td>Naveen Rajdev</td>
+                <td>Prim’s Algorithm</td>
+            </tr>
+             <tr>
+                <td>6</td>
+                <td>Sustainable Infrastructure Management</td>
+                <td>Storing and analyzing infrastructure data for consistent management and maintenance.</td>
+                <td>*******</td>
+                <td>Arrays</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Traffic Congestion Management</td>
+                <td>Modeling traffic flows and managing congestion by simulating first-in, first-out traffic movements.</td>
+                <td>*******</td>
+                <td>Queues</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Real-Time Citizen Feedback</td>
+                <td>Prioritizing and resolving issues raised by citizens in real-time through a last-in, first-out structure.</td>
+                <td>*******</td>
+                <td>Stacks</td>
+            </tr>
+        </table>
+
+    </section>
+</body>
+</html>
